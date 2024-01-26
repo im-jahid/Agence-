@@ -1,0 +1,99 @@
+#client{
+    padding-bottom: 227px;
+}
+.client_title h3{
+    color:  #151515;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: var(--font-type);
+}
+.client_title p{
+    width: 620px;
+    color: #737373;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: var(--font-type);
+}
+.client_reviews{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.client_reviews_one{
+    padding: 54px 58px;
+}
+.client_reviews_one:hover{
+    border-radius: 30px;
+    background: #F4EFEF;
+}
+.client_reviews_one .experience{
+    width: 307px;
+    color: #7B7B7B;
+    font-family: var(--font-type);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.reviews-ratings a i{
+    color: rgba(249, 189, 44, 1);
+}
+.client-reviews-one-client-info{
+    display: flex;
+    margin-top: 30px;
+}
+.client-reviews-one-client-info .info-text h3{
+    color: var(--dark-01, #232323);
+    font-family: var(--font-type);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+.info-text{
+    margin-left: 20px;
+}
+.client-reviews-one-client-info .info-text .designation{
+    color:  #7B7B7B;
+    font-family: var(--font-type);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.client_reviews_slider_button{
+    display: flex;
+    position: relative;
+}
+.client_reviews_slider_button_previous button{
+    position: absolute;
+    bottom: 215px;
+    left: 275px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #4756DF;
+    color: white;
+    border: none;
+}
+.client_reviews_slider_button_next button{
+    position: absolute;
+    bottom: 215px;
+    right: 275px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #4756DF;
+    color: white;
+    border: none;
+}
